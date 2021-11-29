@@ -1,0 +1,76 @@
+*{
+    box-sizing: border-box;
+}
+.card-content {
+   background-color: white;
+   width: 100%;
+}
+/* ---HEADER--- */
+.card{
+    width: 400px;
+    height: 550px;
+}
+.card .card-header img {
+    width: 400px;
+}
+
+/* ---BODY--- */
+/* ---CHEST--- */
+.card-body-chest p, h2 {
+    
+    text-align: center;
+}
+.card-body-chest p {
+    padding-left: 5rem;
+    padding-right: 5rem;   
+}
+.card-body-chest .card-plan {
+    display: flex;
+    padding-bottom: 2rem;
+    width: 4rem;
+    background-color: hsl(225, 100%, 94%);
+}
+.card-body-chest .card-plan img{
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+/* BODY */
+.card-body-belly{
+    width: 300px;
+    height: 200px;
+    margin: auto;
+}
+.card-body-belly .card-plan {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 3rem;
+    background-color: hsl(225, 100%, 94%);
+}
+.card-body-belly .card-plan-text p{
+    display: inline;
+}
+
+/* ---FOOTER---  */
+
+.card-footer button {
+    padding:0.8rem;
+    border-radius: 0.8rem;
+    
+}
+.card-payment {
+    padding-bottom: 1rem;
+}
+.card-payment button{
+    margin-left: 2.5rem;
+    background-color: hsl(245, 75%, 52%);
+    color: white;
+    width: 20rem;
+
+}
+.card-payment p { 
+    text-align: center;
+    align-self: center;
+}
+
+

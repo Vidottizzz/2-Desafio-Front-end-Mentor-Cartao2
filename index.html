@@ -8,8 +8,8 @@
             rel="icon"
             type="image/png"
             sizes="32x32"
-            href="./images/favicon-32x32.png"
-        >
+            href="./images/favicon-32x32.png">
+        <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap" rel="stylesheet">
         <link rel="stylesheet" type="text/css" href="/style.css">
         <title>Frontend Mentor | Order summary card</title>
         <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
@@ -29,14 +29,16 @@
                 <div class="card-body-chest">
                     <div class="card-text">
                         <h2>Order Summary</h2>
-                        <p>You can now listen to millions of songs audiobooks, and podcasts on any device anywhere you like!</p>
+                        <div class="inner-content">
+                            <p>You can now listen to millions of songs audiobooks, and podcasts on any device anywhere you like!</p>
+                        </div>                     
                     </div>
-                </div>           
+                </div>
                 <div class="card-body-belly">
                     <div class="card-plan">
+                        <img src="/images/icon-music.svg" alt="">
                         <div class="card-plan-text">
-                            <img src="/images/icon-music.svg" alt="">
-                            <p>Annual Plan</p>
+                            <p class="annual-plan">Annual Plan</p>
                             <p>$59.99/year</p>
                         </div>
                         <div class="card-change-plan">

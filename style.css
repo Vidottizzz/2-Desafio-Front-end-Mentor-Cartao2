@@ -1,76 +1,115 @@
-*{
-    box-sizing: border-box;
+* {
+  box-sizing: border-box;
+}
+body{
+    font-size: 1rem;
+    font-family: 'Red Hat Display', sans-serif;
+    background-color: hsl(225, 100%, 94%);
+    
 }
 .card-content {
-   background-color: white;
-   width: 100%;
+  background-color: white;
+  width: 100%;
+  border-radius: 1rem;
 }
 /* ---HEADER--- */
-.card{
-    width: 400px;
-    height: 550px;
+.card {
+  width: 330px;
+  
+ 
 }
 .card .card-header img {
-    width: 400px;
+  width: 100%;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
 }
+
 
 /* ---BODY--- */
 /* ---CHEST--- */
-.card-body-chest p, h2 {
-    
-    text-align: center;
+.card-body-chest {
+    width: 100%;
 }
-.card-body-chest p {
-    padding-left: 5rem;
-    padding-right: 5rem;   
+.card-body-chest .card-text .inner-content {
+    width: 100%;
+}
+.card-body-chest p,
+h2 {
+  text-align: center;
+  line-height: 1.6rem;
+}
+.card-body-chest .inner-content p {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem; 
 }
 .card-body-chest .card-plan {
-    display: flex;
-    padding-bottom: 2rem;
-    width: 4rem;
-    background-color: hsl(225, 100%, 94%);
+  display: flex;
+  padding-bottom: 1.5rem;
+  width: 4rem;
+  background-color: hsl(225, 100%, 94%);
 }
-.card-body-chest .card-plan img{
-    width: 2.5rem;
-    height: 2.5rem;
+.card-body-chest .card-text {
+
+   
+    justify-content: center;
+    
+}
+.card-body-chest .card-plan img {
+  width: 2.5rem;
+  height: 2.5rem;
 }
 
 /* BODY */
-.card-body-belly{
-    width: 300px;
-    height: 200px;
-    margin: auto;
+.card-body-belly {
+  width:85%;
+  
+  margin: auto;
+  margin-bottom: 1.5rem;
 }
 .card-body-belly .card-plan {
-    display: flex;
-    justify-content: space-around;
-    padding-bottom: 3rem;
-    background-color: hsl(225, 100%, 94%);
+  display: flex;
+  align-items: center;
+  padding-left: 1rem;
+  border-radius: 1rem;
+  background-color: hsl(225, 100%, 98%);
 }
-.card-body-belly .card-plan-text p{
-    display: inline;
+.card-body-belly .card-plan p {
+ margin-left: 1.5rem;
 }
-
+.card-body-belly .card-plan .annual-plan {
+    font-weight: 700;
+}
+.card-body-belly .card-plan .card-change-plan a {
+    margin-left: 2rem;
+}
 /* ---FOOTER---  */
 
 .card-footer button {
-    padding:0.8rem;
-    border-radius: 0.8rem;
-    
-}
-.card-payment {
-    padding-bottom: 1rem;
-}
-.card-payment button{
-    margin-left: 2.5rem;
-    background-color: hsl(245, 75%, 52%);
-    color: white;
-    width: 20rem;
+  padding: 1rem;
+  width: 85%;
+  border-radius: 0.8rem;
 
 }
-.card-payment p { 
-    text-align: center;
-    align-self: center;
+.card-footer .card-payment {
+  padding-bottom: 1rem;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
 }
-
-
+.card-payment button {
+  margin-left: 2.5rem;
+  background-color: hsl(245, 75%, 52%);
+  color: white;
+  text-align: center;
+  margin: auto;
+  font-weight: 900;
+  padding: 0.9rem;
+  
+}
+.card-payment p {
+margin: auto;
+margin-top: 1.5rem;
+margin-bottom: 1rem;
+font-weight: 700;
+}

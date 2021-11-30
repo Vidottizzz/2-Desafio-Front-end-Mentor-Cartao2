@@ -33,8 +33,10 @@ body{
     width: 100%;
 }
 .card-body-chest .card-text .inner-content {
-    width: 90%;
+     width: 75%;
+     margin: auto;
 }
+
 .card-body-chest
  {
   text-align: center;
@@ -48,9 +50,8 @@ body{
   background-color: hsl(225, 100%, 94%);
 }
 .card-body-chest .card-text p {
-
-   text-align: center;
-    padding-left: 1rem;
+    text-align: center;
+    padding-bottom: 0.2rem;
     
 }
 .card-body-chest .card-text h2 {
@@ -78,17 +79,20 @@ body{
   padding-left: 1rem;
   border-radius: 1rem;
   background-color: hsl(225, 100%, 98%);
-  padding: 1.5rem;
+  padding: 1rem;
+
 }
 
 .card-body-belly .card-plan .annual-plan {
     font-weight: 900;
-    margin-bottom: 1rem;
+    font-size: 15px;
 }
 .card-body-belly .card-plan-text {
     flex-direction: column;
     margin-right: 2rem;
     margin-left: 1rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
 }
 .card-body-belly .card-plan-text p {
     display: inline;
@@ -96,10 +100,21 @@ body{
 /* .card-body-belly .card-plan .card-change-plan a {
     margin-left: 2rem;
 } */
+
+.card-body-belly .card-plan .card-change-plan a {
+    font-size: 14px;
+    font-weight: 700;
+    color: hsl(245, 75%, 52%);
+}
+.card-body-belly .card-plan .price-plan {
+    padding-top: 1rem;
+    color: hsl(224, 23%, 55%);
+}
 /* ---FOOTER---  */
 
 
 .card-footer .card-payment {
+    padding-top: 0.2rem;
   padding-bottom: 1rem;
   display: flex;
   width: 100%;
@@ -119,7 +134,9 @@ body{
   font-weight: 900;
   padding: 0.7rem;
   font-size: 14px;
-  margin-top: 0.3rem;
+  margin-bottom: 0.2rem;
+  /* margin-top: 0.3rem; */
+ 
 }
 .card-payment .card-button a {
     margin: auto;
@@ -129,8 +146,8 @@ body{
 }
 .card-footer .card-payment p {
 margin: auto;
-margin-top: 1.5rem;
-margin-bottom: 1rem;
+margin-top: 1.7rem;
+margin-bottom: 1.5rem;
 font-weight: 700;
 font-size: 14px
 }

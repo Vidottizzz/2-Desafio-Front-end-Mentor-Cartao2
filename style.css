@@ -7,18 +7,22 @@ body{
     background-color: hsl(225, 100%, 94%);
     
 }
+a:visited {
+    color: white;
+    
+}
+.card {
+    width: 25.625rem;
+    margin: auto;
+    margin-top: 10rem
+  }
 .card-content {
   background-color: white;
   width: 100%;
   border-radius: 1rem;
 }
 /* ---HEADER--- */
-.card {
-  /* width: 330px; */
-  width: 410px;
-  
- 
-}
+
 .card .card-header img {
   width: 100%;
   border-top-left-radius: 1rem;
@@ -48,21 +52,24 @@ body{
   padding-bottom: 1.5rem;
   width: 4rem;
   background-color: hsl(225, 100%, 94%);
+  
 }
 .card-body-chest .card-text p {
     text-align: center;
     padding-bottom: 0.2rem;
+    justify-content: st;
     
 }
 .card-body-chest .card-text h2 {
     font-weight: 900;
-    font-size: 25px;
+    font-size: 1.5625rem;
 
     
 }
 .card-body-belly .card-plan img {
   width:2.5rem;
   height: 2.5rem;
+  ;
 }
 
 /* BODY */
@@ -73,42 +80,48 @@ body{
   margin-bottom: 1.5rem;
 }
 .card-body-belly .card-plan {
-    
     display: flex;
   align-items: center;
   padding-left: 1rem;
   border-radius: 1rem;
   background-color: hsl(225, 100%, 98%);
-  padding: 1rem;
-
+justify-content: space-between;
+padding: 1.5rem;
 }
 
 .card-body-belly .card-plan .annual-plan {
+    margin: 0;
     font-weight: 900;
-    font-size: 15px;
+    font-size: 0.9375rem;
 }
+
 .card-body-belly .card-plan-text {
     flex-direction: column;
-    margin-right: 2rem;
-    margin-left: 1rem;
-    margin-top: 0.5rem;
-    margin-bottom: 0.5rem;
+    padding-right: 5rem;   
+    padding-left: 1rem; 
 }
-.card-body-belly .card-plan-text p {
-    display: inline;
-}
+
 /* .card-body-belly .card-plan .card-change-plan a {
     margin-left: 2rem;
 } */
 
 .card-body-belly .card-plan .card-change-plan a {
-    font-size: 14px;
+    font-size: 0.875rem;
     font-weight: 700;
-    color: hsl(245, 75%, 52%);
+    color: hsl(223, 47%, 23%);
+    padding-right: 1rem;
+}
+.card-body-belly .card-plan .card-change-plan a:hover {
+    color:#551A8B;
+    text-decoration: none;
+    
+    
 }
 .card-body-belly .card-plan .price-plan {
-    padding-top: 1rem;
     color: hsl(224, 23%, 55%);
+    margin: 0;
+    margin-top: 0.2rem;
+    
 }
 /* ---FOOTER---  */
 
@@ -133,7 +146,7 @@ body{
   margin: auto;
   font-weight: 900;
   padding: 0.7rem;
-  font-size: 14px;
+  font-size: 0.875rem;
   margin-bottom: 0.2rem;
   /* margin-top: 0.3rem; */
  
@@ -141,13 +154,27 @@ body{
 .card-payment .card-button a {
     margin: auto;
     font-weight: 700;
-    
-
+    text-decoration: none;
+   
 }
+.card-payment .card-button:hover {
+    background-color: #551A8B;
+    cursor: pointer;
+}
+
 .card-footer .card-payment p {
 margin: auto;
 margin-top: 1.7rem;
 margin-bottom: 1.5rem;
-font-weight: 700;
-font-size: 14px
+font-size: 0.875rem;
+
+}
+.card-footer .card-payment .card-cancel a {
+    text-decoration: none;
+    color: hsl(223, 47%, 23%);
+}
+.card-footer .card-payment p:hover {
+    font-weight: 900;
+    text-decoration: none;
+
 }

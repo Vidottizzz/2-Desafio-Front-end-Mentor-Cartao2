@@ -148,10 +148,9 @@ padding: 1.5rem;
   /* margin-top: 0.3rem; */
  
 }
-.card-payment .card-button a {
+.card-payment .card-button h4{
     margin: auto;
     font-weight: 700;
-    text-decoration: none;
    
 }
 .card-payment .card-button:hover {

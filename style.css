@@ -7,10 +7,7 @@ body{
     background-color: hsl(225, 100%, 94%);
     
 }
-a:visited {
-    color: white;
-    
-}
+
 .card {
     width: 25.625rem;
     margin: auto;
@@ -172,6 +169,12 @@ font-size: 0.875rem;
 .card-footer .card-payment .card-cancel a {
     text-decoration: none;
     color: hsl(223, 47%, 23%);
+    
+}
+ a:visited {
+    color: white;
+
+    
 }
 .card-footer .card-payment p:hover {
     font-weight: 900;
